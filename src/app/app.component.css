@@ -1,0 +1,47 @@
+/* Center the text in h1 */
+h1 {
+    text-align: center;
+}
+
+/* Styles for the counter container */
+.counter {
+    height: 300px; /* Adjusted height for demonstration */
+    width: 300px; /* Adjusted width for demonstration */
+    background-color: #f0f0f0; /* Light gray background */
+    border: 2px solid #ccc; /* Added border */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+/* Font size for the count */
+.count {
+    font-size: 48px;
+    color: #333; /* Dark text color */
+}
+
+/* Styles for buttons */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 20px; /* Adjusted padding */
+    margin: 10px; /* Increased margin */
+    border: none; /* Removed border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Disabled state for buttons */
+button:disabled {
+    background-color: #cccccc; /* Light gray for disabled state */
+    cursor: not-allowed; /* Change cursor to not-allowed when button is disabled */
+}
+
